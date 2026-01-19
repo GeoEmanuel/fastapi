@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: Dockerfile.prod
     ports:
-      - "8000:8000"
+      - "9000:8000"
     # Diferente do dev:
     # 1. Não montamos volumes (o código é fixo na imagem)
     # 2. Política de reinício em caso de falha

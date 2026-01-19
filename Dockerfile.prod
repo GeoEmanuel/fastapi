@@ -20,4 +20,4 @@ USER appuser
 # --host 0.0.0.0 permite acesso externo
 # --port 8000 define a porta interna
 # --workers 4 permite processar mais requisições simultâneas
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "4"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "9000", "--workers", "4"]
